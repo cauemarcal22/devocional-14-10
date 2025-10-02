@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Você ♡ Devocional</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="floating-hearts">
+    <span class="heart-float">♡</span>
+    <span class="heart-float">♡</span>
+    <span class="heart-float">♡</span>
+    <span class="heart-float">♡</span>
+    <span class="heart-float">♡</span>
+    <span class="heart-float">♡</span>
+  </div>
+
+  <audio id="backgroundMusic" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <button class="music-toggle" id="musicToggle">
+    <span class="music-icon">🎵</span>
+    <span class="music-text">Tocar Música</span>
+  </button>
+
+  <div class="container">
+    <header class="devotional-header">
+      <div class="header-sparkle">✨</div>
+      <h1>Para você, jogadora.</h1>
+      <p class="subtitle">Um momento especial com Deus ♡</p>
+      <p class="verse-ref">Provérbios 31:10-31</p>
+      <div class="header-sparkle">✨</div>
+    </header>
+
+    <main class="devotional-content">
+      <section class="verse-section">
+        <h2 class="section-title">A Mulher Virtuosa</h2>
+
+        <div class="verse-container">
+          <p class="verse"><span class="verse-number">10</span> Mulher virtuosa, quem a achará? O seu valor muito excede o de rubis.</p>
+          <p class="verse"><span class="verse-number">11</span> O coração do seu marido confia nela, e não haverá falta de ganho.</p>
+          <p class="verse"><span class="verse-number">12</span> Ela lhe faz bem e não mal, todos os dias da sua vida.</p>
+          <p class="verse"><span class="verse-number">13</span> Busca lã e linho e trabalha de boa vontade com as suas mãos.</p>
+          <p class="verse"><span class="verse-number">14</span> É como os navios mercantes; de longe traz o seu pão.</p>
+          <p class="verse"><span class="verse-number">15</span> Levanta-se, ainda de noite, e dá mantimento à sua casa e a tarefa ordenada às suas servas.</p>
+          <p class="verse"><span class="verse-number">16</span> Examina uma propriedade e adquire-a; planta uma vinha com o fruto de suas mãos.</p>
+          <p class="verse"><span class="verse-number">17</span> Cinge os seus lombos de força e fortalece os seus braços.</p>
+          <p class="verse"><span class="verse-number">18</span> Vê que é boa a sua mercadoria; a sua lâmpada não se apaga de noite.</p>
+          <p class="verse"><span class="verse-number">19</span> Estende as mãos ao fuso, e as suas mãos pegam na roca.</p>
+          <p class="verse"><span class="verse-number">20</span> Abre a mão ao aflito e estende as suas mãos ao necessitado.</p>
+          <p class="verse"><span class="verse-number">21</span> Não teme a neve na sua casa, porque toda a sua família está vestida de lã escarlate.</p>
+          <p class="verse"><span class="verse-number">22</span> Faz para si cobertas de tapeçaria; seu vestido é de seda e púrpura.</p>
+          <p class="verse"><span class="verse-number">23</span> Seu marido é conhecido nas portas, quando se assenta com os anciãos da terra.</p>
+          <p class="verse"><span class="verse-number">24</span> Faz roupas de linho e vende-as, e dá cintos aos mercadores.</p>
+          <p class="verse"><span class="verse-number">25</span> A força e a dignidade são o seu vestido, e se alegrará com o dia futuro.</p>
+          <p class="verse"><span class="verse-number">26</span> Abre a boca com sabedoria, e a lei da beneficência está na sua língua.</p>
+          <p class="verse"><span class="verse-number">27</span> Observa atentamente os caminhos da sua casa e não come o pão da preguiça.</p>
+          <p class="verse"><span class="verse-number">28</span> Levantam-se seus filhos e chamam-na bem-aventurada; seu marido também, e ele a louva:</p>
+          <p class="verse"><span class="verse-number">29</span> "Muitas mulheres agiram virtuosamente, mas tu a todas sobrepujas."</p>
+          <p class="verse"><span class="verse-number">30</span> Enganosa é a beleza, e vã a formosura, mas a mulher que teme ao Senhor, essa será louvada.</p>
+          <p class="verse"><span class="verse-number">31</span> Dai-lhe do fruto das suas mãos, e louvem-na nas portas as suas obras.</p>
+        </div>
+      </section>
+
+      <section class="reflection-section">
+        <h2 class="section-title">Para você</h2>
+        <div class="reflection-box">
+          <p>Eu sou mais que sortudo por ter te encontrado. Você é especial demais e muito mais importante do que você pode imaginar.</p>
+          <p>Graças a Deus, eu pude te encontrar e viver cada dia com você. Esse é só o começo.</p>
+        </div>
+      </section>
+
+      <section class="interactive-section">
+        <h2 class="section-title">Mensagem Especial</h2>
+        <div class="secret-container">
+          <button class="secret-btn" id="clickHere0">Descubra-me</button>
+          <div id="message0" class="message">
+            <p class="special-message">Atenciosamente,<br>Escritor Anônimo.</p>
+            <div class="heart">❤</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="devotional-footer">
+      <p>Feito com todo meu amor para você ♡</p>
+      <p class="footer-hearts">♡ ♡ ♡</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
